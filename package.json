@@ -1,0 +1,13 @@
+{
+  "name": "quick-badminton-tournament",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Badminton tournament registration, scoring and leaderboards",
+  "scripts": {"start": "node server.js", "dev": "node --watch server.js"},
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.6"
+  }
+}
